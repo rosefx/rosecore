@@ -1,1 +1,1 @@
-# rosecore
+# rosecore :rose: <br> [![GitHub License](https://img.shields.io/badge/license-GNU-blue.svg)](https://github.com/rosefx/rosecore/blob/main/LICENSE) ![Lua Version](https://img.shields.io/badge/lua_version%20-5.4%20-green) ![Pull Requests](https://img.shields.io/badge/Pull_Requests:%20-CONTRIBUTE.md%20-orange)
