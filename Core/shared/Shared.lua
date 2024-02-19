@@ -12,7 +12,6 @@ bundler.private:createBuffer("imports", _, [[
             pcall = pcall,
             assert = assert,
             setmetatable = setmetatable,
-            loadstring = loadstring,
             string = string,
             table = table
         };

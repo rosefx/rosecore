@@ -91,22 +91,3 @@ for i, j in pairs(bundler.private.modules) do
       bundler.private:createModule(i);
   end
 end
-
-function bundler.private:createAPIs(exports)
-  if (not exports or (type(exports) ~= "table")) then return false end
-  local rw = "";
-  for i, j in pairs(exports) do
-      if (i == bundler.private.platform) or (i == "shared") then
-          for k = 1, #j, 1 do
-              local v = j[k]
-              rw = rw..[[
-              ]]..v.exportIndex..[[ = function(...)
-                  return rose.imports.call(rose.imports.getResourceFromName(rose.imports.resourceName), "]]..v.exportName..[[", ...)
-              end
-              ]]
-          end
-      end
-  end
-
-  return rw;
-end
