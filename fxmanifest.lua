@@ -23,4 +23,5 @@ core_env "development";
 
 server_scripts {
   'spec/namespacer.spec.lua',
+  'spec/filesystem.spec.lua'
 }

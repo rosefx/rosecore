@@ -6,6 +6,7 @@ bundler.private.platform = (IsDuplicityVersion() and "client") or "server";
 bundler.private.utils = {};
 
 bundler.private.modules = {
+  ["file"] = {module = "filesystem", namespace = "rose.file", path =  GetResourcePath(CONSTANTS.RESOURCE_NAME).."/Modules/misc/file.lua", endpoints = {"file"}},
   ["namespace"] = {module = "namespacer", namespace = "rose.namespace", path = GetResourcePath(CONSTANTS.RESOURCE_NAME).."/Modules/misc/namespacer.lua", endpoints = {"namespace", "class"}},
   ["class"] = {namespace = "rose.class"},
 }

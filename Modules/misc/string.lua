@@ -9,7 +9,6 @@ for i, j in pairs(imports.string) do
 end
 
 
-
 local __string_gsub = string.public.gsub
 function string.public.gsub(baseString, matchWord, replaceWord, matchLimit, isStrictcMatch, matchPrefix, matchPostfix)
   if not baseString or (type(baseString) ~= "string") or not matchWord or (type(matchWord) ~= "string") or not replaceWord or (type(replaceWord) ~= "string") then return false end
@@ -25,8 +24,6 @@ function string.public.parse(baseString)
   elseif tostring(baseString) == "true" then return true
   else return tonumber(baseString) or baseString end
 end
-
-
 
 
 function string.public.split(baseString, separator)
