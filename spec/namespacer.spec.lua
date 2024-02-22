@@ -25,5 +25,3 @@ if (ROSE_ENV == "development") then
     end);
   end);  
 end
-
-print('ok')

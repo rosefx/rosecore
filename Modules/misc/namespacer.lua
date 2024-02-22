@@ -1,3 +1,7 @@
+--[[ 
+  @Original Idea powered by Assetify <ov studio>
+--]]
+
 local buffer = {
   types = {},
   parents = {}, 
