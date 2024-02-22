@@ -21,6 +21,8 @@ assert(load(exports['rosecore']:import('namespacer')))()
 > );
 > ```
 
+**@Objective: Creates the namespacer.**
+
 <br/>
 
 #### - How to destroy a namespacer (remotly):
@@ -31,6 +33,8 @@ assert(load(exports['rosecore']:import('namespacer')))()
 > );
 > ```
 
+**@Objective: Destroy a namespacer from global scope.**
+
 <br/>
 
 #### - How to get a namespacer type:
@@ -40,6 +44,8 @@ assert(load(exports['rosecore']:import('namespacer')))()
 >   name: string,
 > );
 > ```
+
+**@Objective: Get a namespacer type.**
 
 <br/>
 
@@ -69,7 +75,7 @@ assert(load(exports['rosecore']:import('namespacer')))()
 > );
 > ```
 
-**@Objective: Destroys an existing namespace.**
+**@Objective: Destroys an existing class from global scope.**
 
 <br/>
 
