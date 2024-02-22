@@ -43,7 +43,7 @@ assert(load(exports['rosecore']:import('namespacer')))()
 
 <br/>
 
-# ━ APIs (Class) / Shared
+## ━ APIs (Class) / Shared
 
 #### - How to create a class
 
