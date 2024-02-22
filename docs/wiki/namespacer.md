@@ -9,8 +9,6 @@ assert(load(exports['rosecore']:import('namespacer')))()
 ```
 
 <br/>
-<br/>
-<br/>
 
 ## ━ APIs (Namespacer) / Shared
 
@@ -43,7 +41,6 @@ assert(load(exports['rosecore']:import('namespacer')))()
 > );
 > ```
 
-<br/>
 <br/>
 
 # ━ APIs (Class) / Shared
